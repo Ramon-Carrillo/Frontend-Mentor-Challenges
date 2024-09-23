@@ -109,3 +109,10 @@ body {
 .social-links li:hover a {
   color: var(--grey);
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 327px;
+    padding: 24px;
+  }
+}
