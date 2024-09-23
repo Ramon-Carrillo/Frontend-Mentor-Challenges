@@ -96,7 +96,16 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 14px;
+  font-weight: 700;
   line-height: 21px;
   height: 100%;
   color: var(--white);
+}
+
+.social-links li:hover {
+  background-color: var(--green);
+}
+
+.social-links li:hover a {
+  color: var(--grey);
 }
