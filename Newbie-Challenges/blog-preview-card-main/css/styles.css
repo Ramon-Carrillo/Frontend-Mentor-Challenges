@@ -72,6 +72,11 @@ body {
   font-weight: 800;
 }
 
+.content__title a:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
 .content__description {
   margin-top: var(--mt-12);
   font-size: var(--base-text);
